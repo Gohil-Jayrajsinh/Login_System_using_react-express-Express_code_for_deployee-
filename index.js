@@ -7,14 +7,11 @@ app.use(cors());
 app.use(express.json());
 
 const dbconn = mysql.createConnection({
-  host: 'localhost',
-  user: "root",
-  password: '',
-  database: 'rk'
+  host: 'sql213.ezyro.com	',
+  user: "ezyro_35653755",
+  password: 'cbe2affd',
+  database: 'ezyro_35653755_admin5412'
 })
-
-
-
 
 
 
