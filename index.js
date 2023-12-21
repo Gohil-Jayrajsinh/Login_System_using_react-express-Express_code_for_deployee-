@@ -7,10 +7,10 @@ app.use(cors());
 app.use(express.json());
 
 const dbconn = mysql.createConnection({
-  host: 'sql213.ezyro.com	',
-  user: "ezyro_35653755",
-  password: 'cbe2affd',
-  database: 'ezyro_35653755_admin5412'
+  host: 'bpplqdce2icdyzk7pegd-mysql.services.clever-cloud.com',
+  user: 'uoharbdchoqh0hpg',
+  password: 'S6s6YvB8kyA7otsU8C3d',
+  database: 'bpplqdce2icdyzk7pegd'
 })
 
 
